@@ -108,11 +108,11 @@ setup_audit: false
 run_audit: false
 
 # Only run Audit do not remediate
-audit_only: false
+audit_only: true
 # This will enable files to be copied back to control node(part of audit_only)
-fetch_audit_files: false
+fetch_audit_files: true
 # Path to copy the files to will create dir structure(part of audit_only)
-audit_capture_files_dir: /some/location to copy to on control node
+audit_capture_files_dir: /opt
 
 ## How to retrieve audit binary(Goss)
 # Options are 'copy' or 'download' - detailed settings at the bottom of this file
